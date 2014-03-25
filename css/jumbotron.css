@@ -1,0 +1,61 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+@media (min-width: 1200px) {
+	div.mainContainer {
+		height: 505px;
+		}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	div.mainContainer {
+	height: 320px; 
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	div.mainContainer {
+	height: 252px; 
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	div.mainContainer {
+	height: 240px;
+	}
+ }
+
+
+div#jumb2 {
+	margin-top: -5%;
+	height: 150px;
+	background-color: #22313F;
+}
+
+h1#getbaton {
+  	padding-top: -1%;
+/*   padding-bottom: 250px; */
+}
+
+div#animationHolder {
+/* 	overflow: auto; */
+	padding-bottom: 55px;
+/* 	padding-left: 11%; */
+}
+
+img.center-block {
+	overflow: hidden;
+	height: auto;
+	width: 75%;
+}
+
+img.right-block {
+align: right;
+	overflow: hidden;
+	height: auto;
+	width: 30%;
+	margin-top: -2.45%;
+	
+}
